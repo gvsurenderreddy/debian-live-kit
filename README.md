@@ -1,6 +1,9 @@
-Usage: debian-live-kit [options]
-
+Usage:
+===
+     debian-live-kit [options]
 Synopsis
+===
+```
      Tool to perform all or any action in making a debian-live-kit build
      Takes a Porteus source and extracts the needed parts (boot., kernel, firmware),
      then overlays a Debian filesystem over top. Resulting in a modular `Slax` like build of Debian
@@ -12,22 +15,27 @@ Synopsis
           debian-live-kit --extract && \
           debian-live-kit --init
        debian-live-kit --import --source /path/to/build
-
+```
 Example 1: do everything and install to a pen drive
+```sh
      # This will perform the complete build process
      debian-live-kit -a -p /path/to/porteus.iso
      # This will make a bootable pen drive
      debian-live-kit -P -s /dev/sdb1
-
+```
 Example 2: import from a path
+```sh
      # This will inflate the working tree from the path specified
      debian-live-kit -R -s /path/to/build
-
+```
 Example 3: Using an existing tree
+```sh
      # use any of the action options
      # --unpack,--pack,--pen,--modify
+```
 
 Options
+===
     -e, --extract                    extract needed from porteus
     -p, --inflate                    inflate a porteus iso
     -U, --unpack                     Imports a debian base from target into the work tree
