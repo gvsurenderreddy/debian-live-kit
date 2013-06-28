@@ -1,0 +1,32 @@
+#!/bin/env ruby
+require "../lib/debian-live-kit.rb"
+
+if OPTIONS[:info]
+  puts MODULES
+  puts EXTRA_PKGS
+end
+
+do_commands = OPTIONS.keys.find_all() do |k|
+  COMMANDS.keys.index(k)
+end
+
+if do_commands.length > 1
+  puts OPTION_PARSER
+  puts "Only one command can be specifed."
+  exit(1)
+elsif do_commands.empty?
+  puts OPTION_PARSER
+  puts "No directive specified."
+  exit(1)
+elsif OPTIONS.keys.index(:clean)
+  create_paths()
+  clean(true)
+  exit(0)
+end
+
+cmd = do_commands.first
+
+COMMANDS[cmd].call()
+
+
+__END__

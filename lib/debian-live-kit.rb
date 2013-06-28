@@ -1,0 +1,5 @@
+require "../lib/debian-live-kit/main.rb"
+require "../lib/debian-live-kit/commands.rb"
+require "../lib/debian-live-kit/lib.rb"
+require "../lib/debian-live-kit/data.rb"
+require "../lib/debian-live-kit/shell_utils.rb"

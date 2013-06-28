@@ -1,0 +1,194 @@
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+mkdir /home/ppibburr/.work
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+mkdir /home/ppibburr/.work
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35mPacking debian base...[0m
+[35mMaking XZM module of modit, to, 01-debian-base.xzm[0m
+[34mrm -f 01-debian-base.xzm[0m
+[34mmksquashfs modit 01-debian-base.xzm -b 256K -comp xz -Xbcj x86[0m
+Cannot stat source directory "modit" because No such file or directory
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
+[35minitialize structure...[0m
+[34mmkdir /home/ppibburr/.work[0m
+mkdir: cannot create directory `/home/ppibburr/.work': File exists
