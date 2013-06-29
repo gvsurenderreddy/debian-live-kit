@@ -1,0 +1,42 @@
+#!/bin/env ruby
+require '../lib/builder.rb'
+
+from = nil
+
+(oa=ARGV.find_all do |o|
+  o =~ /^\-/
+end).each do |o|
+  raise "bad option #{o}" unless o =~ /\-\-init\=(.*)/
+  from = File.expand_path($1) unless from
+end
+
+if from
+  raise "bad type" unless ["lite","full"].index(ARGV[0])
+  init(from,type=ARGV[0])
+end
+
+oa.each do |o| ARGV.delete(o) end
+env = nil
+case ARGV.shift
+when "lite"
+  case ARGV.shift
+  when "xorg"
+    cmd = :do_lite_xorg
+  when "all"
+    env = "all"
+    cmd = :do_lite_all
+  when /^(lxde|xfce|xmonad|openbox)$/
+    cmd = :"do_lite_#{$1}"
+  when "standard"
+    cmd = :do_lite_standard
+  end
+else
+end
+
+Dir.chdir WORK
+
+if env == "all"
+  send cmd, !from, ARGV.shift
+else
+  send cmd, !from
+end

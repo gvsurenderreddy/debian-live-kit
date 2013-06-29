@@ -3,10 +3,13 @@ def init_base_setup
   File.open("modit/setup.sh","w") do |f|
     f.puts BASE_SETUP 
     EXTRA_PKGS.each do |pkg|
-      f.puts "echo -e \"\nlive\n\" | apt-get --yes --force-yes install #{pkg.join}"
+      f.puts "apt-get --yes --force-yes install #{pkg.join}"
     end
     f.puts "apt-get clean"
   end
+  true
+rescue
+  false
 end  
 
 def failed()
@@ -63,12 +66,12 @@ end
 # debootstrap's a minimal debian
 def init_base
   echo "Prepare the debian base"
- # x "rm -rf modit/*"
- # unless x("debootstrap --arch=i386 #{RELEASE} modit") &&
+  x "rm -rf modit/*"
+  unless x("debootstrap --arch=i386 #{RELEASE} modit") &&
          init_base_setup() &&
-         x("chroot modit /bin/bash /setup.sh")
-  #  failed()
-  #end
+         x("chroot modit bash setup.sh")
+    failed()
+  end
   
   cache = Dir.glob("modit/var/cache/apt/a*/*.deb")
   

@@ -14,7 +14,7 @@ command :all, :with_opts=>[:iso,:all,:clean,:splash] do
   
   mkdeb(target)
   
-  clean(options[:clean])
+  clean(OPTIONS[:clean])
 end
 
 command :init, :with_opts=>[:init] do
